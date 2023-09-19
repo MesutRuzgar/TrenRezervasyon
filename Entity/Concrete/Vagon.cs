@@ -1,9 +1,11 @@
 ﻿using Entity.Abstract;
+using System.ComponentModel.DataAnnotations;
 
 namespace Entity.Concrete
 {
     public class Vagon : IEntity
     {
+        [Key]
         public int VagonID { get; set; }
         public int TrenID { get; set; }
         public string? Ad { get; set; }
