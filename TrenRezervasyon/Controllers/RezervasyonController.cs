@@ -22,7 +22,7 @@ namespace TrenRezervasyon.Controllers
     
         }
 
-        [HttpPost]
+        [HttpPost("kontrol")]
         public IActionResult RezervasyonSorgula(RezervasyonDTO p)
         {
                 

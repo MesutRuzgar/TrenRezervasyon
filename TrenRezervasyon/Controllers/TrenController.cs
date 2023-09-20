@@ -14,7 +14,7 @@ namespace TrenRezervasyon.Controllers
         {
             _trenService = trenService;
         }
-        [HttpGet]
+        [HttpGet("trenler")]
         public IActionResult Get()
         {
             var result = _trenService.Trenler();
